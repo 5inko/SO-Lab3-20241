@@ -1,5 +1,5 @@
-SRCS = saxpy.c
-TARG = saxpy
+SRCS = saxpy-p.c
+TARG = saxpy-p
 OBJS = $(SRCS:.c=.o)
 
 CC = gcc
